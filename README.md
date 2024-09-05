@@ -1,0 +1,2 @@
+# Appium_Test_MyObservatory
+通过appium+java+testng的架构对我的天文台app做ui自动化
