@@ -117,3 +117,13 @@ JSON文件解释如下。
 
 
 </project>
+
+
+编写测试类，实现登录测试：
+
+![Image](https://github.com/anotherwu/Appium_Test_MyObservatory/blob/2e0e7f70872010b37d117706a51132159f0797fe/image/image7.png)
+
+执行如上测试类，实现测试。并得到测试结果如下：
+
+
+![Image](https://github.com/anotherwu/Appium_Test_MyObservatory/blob/2e0e7f70872010b37d117706a51132159f0797fe/image/image8.png)
