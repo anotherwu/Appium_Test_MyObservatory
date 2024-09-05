@@ -24,16 +24,27 @@ Tools(adb等)	--下载并安装Android Studio
 
 ## 2.启用Appium环境
 
-![Image](https://raw.githubusercontent.com/用户名/仓库名/分支名/图片路径)
+![Image](https://github.com/anotherwu/Appium_Test_MyObservatory/blob/2e0e7f70872010b37d117706a51132159f0797fe/image/image1.png)
 ### 连接Android设备：
 打开夜神模拟器
 然后Windows通过 cmd命令：adb devices，识别到可用的设备ID。
 当adb命令无效时，确定安卓SDK正确下载，android-SDK\platform-tools是否添加到环境变量。
+
+![Image](https://github.com/anotherwu/Appium_Test_MyObservatory/blob/2e0e7f70872010b37d117706a51132159f0797fe/image/image2.png)
 获取的设备ID用于Appium Inspector填写参数，连接该设备。
 
 ### 启动Appium（服务）:
 
+
+![Image](https://github.com/anotherwu/Appium_Test_MyObservatory/blob/2e0e7f70872010b37d117706a51132159f0797fe/image/image3.png)
+
+
+![Image](https://github.com/anotherwu/Appium_Test_MyObservatory/blob/2e0e7f70872010b37d117706a51132159f0797fe/image/image4.png)
+
 ### 启动Appium Inspector
+
+
+![Image](https://github.com/anotherwu/Appium_Test_MyObservatory/blob/2e0e7f70872010b37d117706a51132159f0797fe/image/image5.png)
 JSON文件解释如下。
 
 1.{
@@ -43,7 +54,10 @@ JSON文件解释如下。
 5.  "appium:appPackage": "hko.myobservatory", //包名，通过手机应用信息也可以找到
 6.  "appium:appActivity": ".agreementPage" //指定了应用内部的具体活动（某个界面）的名称。这里是登录页。可以文本格式打开apk找到Manifest获取
 7.}
+### 会话冒烟
+当第③步顺利完成，点击Start Session后，就可以正确的打开需要测试的app和界面了，如下图：
 
+![Image](https://github.com/anotherwu/Appium_Test_MyObservatory/blob/2e0e7f70872010b37d117706a51132159f0797fe/image/image6.png)
 
 ## 3.启用IDE环境
 ### 1.Maven参数配置：
