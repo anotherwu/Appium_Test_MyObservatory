@@ -24,9 +24,10 @@ Tools(adb等)	--下载并安装Android Studio
 
 ## 2.启用Appium环境
 
-![Image](https://github.com/anotherwu/Appium_Test_MyObservatory/blob/2e0e7f70872010b37d117706a51132159f0797fe/image/image1.png)
 ### 连接Android设备：
 打开夜神模拟器
+
+![Image](https://github.com/anotherwu/Appium_Test_MyObservatory/blob/2e0e7f70872010b37d117706a51132159f0797fe/image/image1.png)
 然后Windows通过 cmd命令：adb devices，识别到可用的设备ID。
 当adb命令无效时，确定安卓SDK正确下载，android-SDK\platform-tools是否添加到环境变量。
 
