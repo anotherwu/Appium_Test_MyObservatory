@@ -23,6 +23,8 @@ Tools(adb等)	--下载并安装Android Studio
 
 
 ## 2.启用Appium环境
+
+![Image](https://raw.githubusercontent.com/用户名/仓库名/分支名/图片路径)
 ### 连接Android设备：
 打开夜神模拟器
 然后Windows通过 cmd命令：adb devices，识别到可用的设备ID。
