@@ -2,7 +2,7 @@
 通过appium+java+testng的架构对我的天文台app做ui自动化
 
 ## 1.环境配置：
-步骤	作用	操作
+
 ### 1. 安装JDK	For: Appium服务器
 For: 编写测试脚本	--下载并安装JDK
 --设置JAVA_HOME环境变量
