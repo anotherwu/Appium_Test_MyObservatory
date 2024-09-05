@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="UiTest" verbose="1" >
+    <test name = "allTestsInAClass" >
+        <classes>
+                  <class name="ApiTest">
+                       <methods>
+                            <include name ="getApiTest"></include>
+                       </methods>
+                  </class>
+             </classes>
+</test>
+</suite>
